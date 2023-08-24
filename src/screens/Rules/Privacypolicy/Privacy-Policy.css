@@ -1,0 +1,33 @@
+.bg-color-pp{
+
+     background: #E4E4E4;
+     border: 1px solid #0D3862;
+     border-radius: 10px;
+     margin-top: 150px;
+}
+
+.inner-smallspace-pp{
+
+    margin-top: 0px;
+    padding: 30px;
+  }
+
+h2{
+
+    color: #C02640!important;
+    font-weight: bolder;
+    
+}
+
+h4{
+
+    color: #0D3862!important;
+    font-weight: bolder;
+}
+
+p{
+
+        color: #0D3862!important;
+        font-weight: normal;
+    
+}

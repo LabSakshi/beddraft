@@ -1,0 +1,6 @@
+.setting-icon-div{
+    display: inline-block;
+}
+.equal-input-design .with-big-input{
+    flex-basis: 45% !important
+}

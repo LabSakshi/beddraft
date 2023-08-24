@@ -1,0 +1,19 @@
+.login-form label{
+    color: #0d3862;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.congratslogo{
+
+    margin-left: 22%;
+}
+
+@media only screen and (max-width: 787px) {
+
+    .congratslogo{
+
+        margin-left: 4%!important;
+    }
+
+}

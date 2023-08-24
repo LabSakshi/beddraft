@@ -1,0 +1,178 @@
+.visa-card-div{
+    position: relative;
+}
+.content-img{
+    position: absolute;
+    top: 20px;
+    left: 24px;
+    width: 85%;   
+}
+
+.inner-divspace{
+
+       margin-top: 85px;
+}
+
+.simple-input:focus{
+
+      background-color: white!important;
+      border: 1px solid #0D3862!important;
+      transition: none!important;
+      outline: 0!important;
+      box-shadow: none!important;
+      padding: 5px 15px 5px 32px !important;
+
+}
+
+.text-depsoit{
+
+    color:#0A6B14!important;
+    text-transform:uppercase!important;
+    line-height:30px!important; 
+    font-size:25px!important;
+}
+
+.text-withdraw{
+
+    color:#C02640!important;
+    text-transform:uppercase!important;
+    line-height:30px!important; 
+    font-size:25px!important;
+}
+
+.balance-amount{
+     
+     font-size: 19px!important;
+}
+
+.bet-balance{
+
+      font-size: 25px!important;
+}
+
+.transaction-table{
+
+    font-size: 25px!important;
+}
+
+.bank-text{
+
+     color: #0D3862;
+     font-size: 17px;
+}
+
+.simple-input{
+
+     border: none!important;
+}
+
+.simple-input{
+
+    background-color: white!important;
+    border: 2px solid #C02640!important;
+    height: 48px;
+    transition: none!important;
+    outline: 0!important;
+    box-shadow: none!important;
+    padding: 5px 15px 5px 32px !important;
+    font-size: 18px!important
+
+}
+
+.no-border{
+
+      border: none!important;
+}
+
+.text-left::-moz-placeholder{
+
+       font-size: 20px!important;
+       font-weight: bold;
+       font-family: inter;
+       color: #0D3862;
+       /* margin-top: -20px!important;
+       margin-left: 15px; */
+}
+
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd!important;
+}
+
+
+.content-img p{
+    color: #979797;
+    font-size: 15px;
+    /* font-family: ArticulatCF-Bold; */
+}
+.visa-check-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translate(0%, 80%);
+}
+.card-delete a{
+    color: #fff;
+    background: #DCBF5E;
+    border-radius: 5px;
+    padding: 4px;
+    padding-bottom: 5px;
+    padding-top: 1px;
+}
+.visa-check-div label{
+    color:#dcbf5e !important;
+}
+.opacity-less{
+    opacity: 0.5;
+}
+.card-withdraw{
+    background: #dcbf5e;
+    color: #fff !important;
+    margin-top: 0 !important;
+    flex-basis: 50%;
+    margin-left: -10px;
+}
+.withdraw-input{
+    display: flex;
+    align-items: center;
+}
+.with-small-input{
+    flex-basis: 55%;
+    margin-right: -15px;
+    
+}
+/* .with-small-input input{
+    margin-top: 0;
+    border-radius: 20px;
+    padding-left: 22px;
+    padding-right: 40px;
+} */
+.wallet-user label{
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 780px) {
+     .save-btn2{
+
+          margin-top: 15px!important;
+     }
+
+     .two-table-color tr td:nth-child(2) {
+        min-width: 255px;
+    }
+
+    .two-table-color tr td:nth-child(3) {
+        min-width: 205px;
+    }
+  }
+  

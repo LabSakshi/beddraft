@@ -1,0 +1,57 @@
+.visa-card-div{
+    position: relative;
+}
+.content-img{
+    position: absolute;
+    top: 20px;
+    left: 24px;
+    width: 85%;
+    
+}
+.content-img p{
+    color: #979797;
+    font-size: 15px;
+    /* font-family: ArticulatCF-Bold; */
+}
+.visa-check-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translate(0%, 80%);
+}
+.card-delete a{
+    color: #fff;
+    background: #DCBF5E;
+    border-radius: 5px;
+    padding: 4px;
+    padding-bottom: 5px;
+    padding-top: 1px;
+}
+.visa-check-div label{
+    color:#dcbf5e !important;
+}
+.opacity-less{
+    opacity: 0.5;
+}
+.card-withdraw{
+    background: #dcbf5e;
+    color: #fff !important;
+    margin-top: 0 !important;
+    flex-basis: 50%;
+    margin-left: -10px;
+}
+.withdraw-input{
+    display: flex;
+    align-items: center;
+}
+.with-small-input{
+    flex-basis: 55%;
+    margin-right: -15px;
+    
+}
+/* .with-small-input input{
+    margin-top: 0;
+    border-radius: 20px;
+    padding-left: 22px;
+    padding-right: 40px;
+} */

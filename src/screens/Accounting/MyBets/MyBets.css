@@ -1,0 +1,258 @@
+.inner-small-space{
+  /* padding: 50px 80px; */
+  padding: 30px;
+  margin-top: 80px;
+}
+.flex-input-design1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flex-input-design1 .with-big-input{
+  flex-basis: 50%;
+}
+.flex-input-design1 .with-small-input{
+  flex-basis: 20%;
+}
+.posi-rela{
+  position: relative;
+}
+.input-arrow-front{
+  position: absolute;
+  color: #d1d1d1;
+  top: 40px;
+  left: 10px;
+}
+.padding-l{
+  padding-left: 44px;
+}
+.under-label{
+  color: #979797;
+  font-size: 16px;
+}
+#check-yellow input{
+height: 20px;
+width: 20px;
+margin-top: 5px;
+}
+
+#check-yellow label{
+ color: #979797;
+ margin-left: 10px;
+}
+.btn-with button{
+  flex-basis: 47%;
+}
+.cancel-btn{
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 50px;
+  box-shadow: none;
+  font-size: 12px;
+  height: 48px;
+  background:#de0b0b;
+}
+.form-space-l30{
+  padding-left: 30px;
+}
+.form-space-r30{
+  padding-right: 30px;
+}
+.table-design-one th{
+  /* color: #D1D1D1; */
+  background: #4e4e4e;
+  font-size: 12px;
+  padding: 16px 15px;
+  text-align: center;
+  /* font-family: ArticulatCF-normal; */
+  border: none;
+}
+.table-design-one td{
+ color:#1bcc68;
+ padding: 16px 15px;
+ font-size: 12px;
+ text-align: center;
+ /* font-family: ArticulatCF-normal; */
+ border: none;
+}
+.table-design-one table tr{
+  border-bottom: 0;
+}
+.table-design-one table tbody{
+  border-top: 0 !important;
+}
+.table-design-one table{
+  background: #373A40;
+    border-radius: 5px;
+}
+.table-design-one table tbody tr:nth-child(odd){
+background: #46474a;
+}
+.expand-tr td{
+  padding: 9px 15px;
+}
+.table-expand-button{
+  color: #dcbf5e;
+    font-size: 22px;
+}
+.two-table-color tr td:nth-child(1),.two-table-color tr td:nth-child(2) {
+  color:#979797;
+}
+.two-table-color tr td:nth-child(2){
+   min-width: 150px;
+}
+.box-label-custom{
+  font-size: 14px;
+}
+.box-label-custom1{
+  display: flex;
+  justify-content: space-between;
+  background: #979797;
+  color: #fff;
+  padding: 9px 10px;
+  border-radius: 4px;
+  gap: 16px;
+}
+.box-label-custom1 >div{
+  word-break: break-all;
+}
+.box-label-ul{
+  list-style: none;
+  margin-top: 15px;
+  padding-left: 15px;
+  font-size: 13px;
+}
+.box-label-ul li:nth-child(odd) {
+  color: #979797;
+}
+.box-label-ul li:nth-child(even) {
+  color: #D1D1D1;
+}
+.box-label-button   {
+   border-radius: 20px;
+width: 100%;
+margin-top: 50px;
+box-shadow: none;
+font-size: 12px;
+height: 48px;
+background: transparent;
+border: 2px solid #bda871;
+box-shadow: none !important;
+color: #fff !important;
+}
+.box-label-button.active   {
+  border-radius: 20px;
+width: 100%;
+margin-top: 50px;
+box-shadow: none;
+font-size: 12px;
+height: 48px;
+background: #bda871;
+border: 2px solid #bda871;
+color: #fff !important;
+box-shadow: none !important;
+}
+
+@media (max-width:767px){
+   .table-design-one{
+    margin-top: 45px;
+   }
+}
+
+@media only screen and (max-width: 767px) {
+  .pastbtn {
+    margin-top: 13px;
+  }
+
+  .openbtn {
+    margin-top: 15px;
+  }
+}
+
+
+.my-betuser{
+  background: #2a2c30;
+  border-radius: 5px;
+  padding: 1.5rem;
+  color: #fff;
+  border: 1px solid;
+  background: #181818;
+}
+.my-betuser h3{
+  font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.my-betuser h5{
+  font-size: 0.8rem;
+    text-transform: uppercase;
+    /* font-family: 'Industry-Book'; */
+}
+.betuser-input-two input, .betuser-form{
+padding-top: 0;
+    border: none;
+    box-shadow: none !important;
+    border-radius: 1rem;
+    text-align: center;
+    color: #fff !important;
+}
+.betuser-form input{
+  background: #373a40 !important;
+}
+
+.betuser-input-two label{
+  /* font-family: 'Industry-Book'; */
+  font-size: 0.7rem;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 7px;
+  opacity: 0.7;
+  letter-spacing: 0.5px;
+}
+.float-divbet{
+  position: relative;
+  height: 60px;
+  color: #fff;
+  background: #373a40;
+  border-radius: 1rem;
+}
+.custom-stickydiv{
+  position: sticky;
+  top: 70px;
+}
+.sticky-div2{
+  position: sticky;
+  top: 60px;
+  background: #24262b;
+}
+.betuser-inputwith{
+  display: flex;
+  gap: 1rem;
+}
+.card-withdraw{
+  box-shadow: none !important;
+}
+.null-entries {
+  margin: 3rem ;
+text-align: center;
+}
+.null-entries{
+  color: #fff;
+}
+.null-entries button{
+  text-transform: uppercase;
+  width: 50%;
+}
+
+.static-form.form-style-2.wallet-user{
+  padding: 0.2rem 20px;
+}
+.static-form.form-style-2.wallet-user .box-label-custom1{
+  background: #1bcc68;
+}
+.custom-height-scroll{
+  height: 70vh;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

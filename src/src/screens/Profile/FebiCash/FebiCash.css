@@ -1,0 +1,116 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ArticulatCF-Regular;
+
+  }
+  body {
+    background: #131414;
+  }
+  @font-face {
+    font-family: ArticulatCF-Bold;
+    src: url(../../../assests/fonts/ArticulatCF-Bold.otf);
+  }
+  @font-face {
+    font-family: ArticulatCF-Medium;
+    src: url(../../../assests/fonts/ArticulatCF-Medium.otf);
+  }
+  @font-face {
+    font-family: ArticulatCF-Regular;
+    src: url(../../../assests/fonts/ArticulatCF-Regular.otf);
+  }
+  @font-face {
+    font-family: ArticulatCF-Normal;
+    src: url(../../../assests/fonts/ArticulatCF-Normal.otf);
+  }
+  @font-face {
+    font-family: Articul atCF-Light;
+    src: url(../../../assests/fonts/ArticulatCF-Light.otf);
+  }
+  @font-face {
+    font-family: ArticulatCF-Thin;
+    src: url(../../../assests/fonts/ArticulatCF-Thin.otf);
+  } */
+  /*  page design */
+  /* .bg-color {
+    background: #24262b;
+    margin-top: 20px;
+  }
+  .inner-divspace {
+    padding: 80px;
+  }
+  .user-div-with {
+    display: flex;
+    align-items: center;
+  }
+  .user-icondiv {
+    height: 55px;
+    width: 55px;
+    color: #fff;
+    background: #dcbf5e;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 22px;
+    margin-right: 20px;
+  }
+  .user-upload h3 {
+    color: #b8b8b8;
+    font-size: 12px;
+  }
+  .chose-btn {
+    background: #7c7d80;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    box-shadow: none;
+    font-size: 12px;
+    padding: 2px 19px;
+    color: #fff;
+  }
+  .my-form-layout1 select,
+  .my-form-layout1 input {
+    background: #373a40;
+    border-radius: 5px;
+    height: 48px;
+    border: none;
+    color: #979797;
+    margin-top: 30px;
+    box-shadow: none !important;
+    outline: none !important;
+    font-size: 12px;
+  }
+  .custom-dropdown {
+    position: relative;
+  }
+  .custom-dropdown-arrow {
+    color: #dcbf5e;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+  .form-space-r {
+    padding-right: 40px;
+  }
+  .form-space-l {
+    padding-left: 40px;
+  }
+  .form-space-m {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .save-btn {
+    background: #2279ee 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 50px;
+    box-shadow: none;
+    font-size: 12px;
+    height: 48px;
+  }
+   */
+
+   body {
+    background: #131414;
+  }

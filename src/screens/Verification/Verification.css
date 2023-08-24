@@ -1,0 +1,90 @@
+/* login section design */
+.join-page-section{
+  background-image: url(../../assests/images/join-bg.png);
+  background-position: center;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+  top: 86px;
+  left: 0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+}
+
+.verification-screen{
+     background: #E4E4E4;
+}
+
+.verification-input{
+        background: white!important;
+}
+
+.verification-input:focus{
+
+  background: white!important;
+}
+
+.verification-screen .form-control{
+
+     font-size: 15px!important;
+}
+
+@media only screen and (max-width: 787px) {
+   
+   .verification-screen{
+         margin-bottom: 50px;
+   }
+
+   .verifcation-btn{
+       margin-top: 15px;
+   }
+  }
+
+  .save-btn22 {
+    background: #0D3862 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 35px;
+    box-shadow: none;
+    font-size: 12px;
+    height: 48px;
+}
+
+
+.inner-join-space{
+  padding: 20px 80px;
+  padding-bottom: 60px;
+}  
+.form-join-heading {
+color: #DCBF5E;
+font-size: 15px;
+font-family: ArticulatCF-Bold;
+padding-left: 20px;
+}
+#check-gray label{
+color: #979797;
+margin-left: 10px;
+font-size: 10px;
+margin-top: -15px;
+}
+#check-gray .form-check-input{
+height: 20px;
+width: 20px;
+margin-top: 5px;
+}
+#check-gray .form-check{
+display: inline-block;
+}
+.join-btn{
+border: 1px solid #FFFFFF;
+border-radius: 20px;
+ border-radius: 20px;
+ width: 100%;
+ margin-top: 50px;
+ box-shadow: none;
+ font-size: 12px;
+ background: transparent;
+ height: 48px;
+}
+/* end login section design  */

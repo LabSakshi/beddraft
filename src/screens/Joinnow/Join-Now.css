@@ -1,0 +1,160 @@
+/* login section design */
+   .join-page-section{
+     background-image: url(../../assests/images/join-bg.png);
+     background-position: center;
+     background-size: cover;
+     min-width: 100%;
+     min-height: 100%;
+     top: 86px;
+     left: 0;
+     padding-top: 70px;
+     padding-bottom: 70px;
+  
+   }
+   .inner-join-space{
+     padding: 20px 80px;
+     padding-bottom: 60px;
+   }
+
+
+    /* .show-icon{
+
+       top: 55px!important;
+    } */
+
+
+.form-join-heading {
+  color: #DCBF5E;
+  font-size: 15px;
+  /* font-family: ArticulatCF-Bold; */
+  padding-left: 20px;
+}
+#check-gray label{
+  color: #979797;
+  margin-left: 10px;
+  font-size: 10px;
+  margin-top: -15px;
+}
+#check-gray .form-check-input{
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+}
+#check-gray .form-check{
+  display: inline-block;
+}
+.join-btn{
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 50px;
+    box-shadow: none;
+    font-size: 12px;
+    background: transparent;
+    height: 48px;
+}
+/* end login section design  */
+
+.join-form{
+  /* max-width: 380px; */
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 3px 7px 25px #0000004d;
+  border-radius: 5px;
+  padding: 30px 45px;
+  background: #24262b;
+  /* transform: translate(0%, 20%); */
+  padding-bottom: 20px;
+  margin-top: 70px;
+ }
+ .join-form h2{
+   color: #dcbf5e;
+   font-size:25px ;
+   margin-left: 15px;
+   /* font-family: Industry-Demi; */
+ }
+ .join-form .form-control{
+  background: #3B3C40;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  height: 48px;
+  /* font-family: ArticulatCF-Regular; */
+ }
+
+ .join-form select{
+  background: #373a40;
+  border-radius: 5px;
+  height: 48px;
+  border: none;
+  color: #979797;
+  /* margin-top: 30px; */
+  box-shadow: none !important;
+  outline: none !important;
+  font-size: 12px;
+}
+
+.login-form label{
+  color:#0d3862;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.signup-form{
+   padding: 45px;
+    max-width: 50%;
+    width: 100%;
+margin: 0 auto;
+    box-shadow: 3px 7px 25px #0000004d;
+    border-radius: 30px;
+    background: #24262b;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+ }
+ .signup-form-2{
+  top: 65%;
+ }
+ .signup-form h2{
+   color: #dcbf5e;
+   font-size:25px ;
+   justify-content: center;
+   display: flex;
+   /* font-family: Industry-Demi */
+ }
+ .signup-form .form-control{
+  background: #3B3C40;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  height: 48px;
+  /* font-family: ArticulatCF-Regular; */
+ }
+ .singup-btn {
+  background: #2279ee 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  width: 100%;
+  /* margin-top: 50px; */
+  box-shadow: none;
+  font-size: 12px;
+  height: 48px;
+  font-family: Industry-Demi;
+}
+.login-a{
+  font-size: 12px;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-decoration: underline;
+    color: #C02640;
+    font-weight: 600;
+    cursor: pointer;
+}

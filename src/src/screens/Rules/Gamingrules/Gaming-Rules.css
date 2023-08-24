@@ -1,0 +1,14 @@
+.content-table thead th{
+  color: #DCBF5E;
+  font-size: 13px;
+}
+.content-table  tr,.content-table  td{
+   border-bottom: 0;
+}
+.content-table  tr{
+  color: #707070;
+  font-size: 12px;
+}
+.content-table {
+  width: 50%;
+}

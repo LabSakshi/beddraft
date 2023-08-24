@@ -1,0 +1,272 @@
+/* *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: Industry-Demi;
+}
+@font-face {
+  font-family: Mont-Bold;
+  src: url(../../assests/fonts/Mont-Bold.ttf);
+}
+@font-face {
+  font-family: Mont-Light;
+  src: url(../../assests/fonts/Mont-Light.ttf);
+}
+
+@font-face {
+  font-family: Industry-Black;
+  src: url(../../assests/fonts/Industry-Black.ttf);
+} */
+
+
+
+/* @font-face {
+  font-family: Mont-Regular;
+  src: url(../../assests/fonts/Mont-Regular.ttf);
+}
+
+@font-face {
+  font-family: Mont-SemiBold;
+  src: url(../../assests/fonts/Mont-SemiBold.ttf);
+}
+@font-face {
+  font-family: Mont-Heavy;
+  src: url(../../assests/fonts/Mont-Heavy.ttf);
+}
+@font-face {
+  font-family: ArticulatCF-Bold;
+  src: url(../../assests/fonts/ArticulatCF-Bold.otf);
+}
+@font-face {
+  font-family: ArticulatCF-Medium;
+  src: url(../../assests/fonts/ArticulatCF-Medium.otf);
+}
+@font-face {
+  font-family: ArticulatCF-Regular;
+  src: url(../../assests/fonts/ArticulatCF-Regular.otf);
+}
+@font-face {
+  font-family: ArticulatCF-Normal;
+  src: url(../../assests/fonts/ArticulatCF-Normal.otf);
+}
+@font-face {
+  font-family: ArticulatCF-Light;
+  src: url(../../assests/fonts/ArticulatCF-Light.otf);
+}
+@font-face {
+  font-family: ArticulatCF-Thin;
+  src: url(../../assests/fonts/ArticulatCF-Thin.otf);
+} */
+
+
+
+
+
+/* login section design */
+   .login-page-section{
+     /* background-image: url("../../assests/images/login-bg.PNG"); */
+     background-position: center;
+     background-size: cover;
+     min-width: 100%;
+     min-height: 100%;
+     /* position: fixed; */
+     top: 86px;
+     left: 0;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     padding-top: 8rem;
+     padding-bottom: 3rem;
+
+
+   }
+
+
+   .checkbox-content > label{
+
+                font-size: 14px!important;
+                margin-top: 4px;
+   }
+
+   .login-form{
+    padding: 45px;
+    /* max-width: 30%;
+    width: 100%; */
+    margin: 0 auto;
+    /* box-shadow: 3px 7px 25px #0000004d; */
+    border-radius: 30px;
+    /* background: #24262b; */
+    /* transform: translate(0%, 20%); */
+    padding-bottom: 30px;
+    margin-top: 30px;
+    
+background: #E4E4E4;
+border: 1px solid #0D3862;
+border-radius: 10px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+   }
+   .login-form h2{
+     color: #dcbf5e;
+     font-size:25px ;
+     justify-content: center;
+     display: flex;
+     /* font-family: Industry-Demi */
+     font-weight: 700;
+font-size: 20px !important;
+line-height: 24px;
+text-align: center;
+
+color: #0D3862 !important;
+   }
+   .login-form .form-control{
+    background: #FFFFFF !important;
+    border: 1px solid #0D3862 !important;
+    border-radius: 10px !important;
+    outline: none;
+    box-shadow: none;
+    height: 48px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0D3862 !important;
+    /* font-family: ArticulatCF-Regular; */
+   }
+   .login-form .form-control::placeholder{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0D3862 !important;
+   }
+   .password-box{
+     position: relative;
+   }
+   .password-box .show-btn{
+    position: absolute;
+    top: 0;
+    right: 11px;
+    height: 100%;
+    background: #3b3c40;
+    line-height: 48px;
+    padding-left: 10px;
+    color: #dcbf5e;
+    text-decoration: none;
+    font-size: 12px;
+    /* font-family: ArticulatCF-Regular; */
+    cursor: pointer;
+   }
+   .password-box .show-icon-reset{
+    position: absolute;
+    top: 36px;
+    right: 30px;
+    height: 100%;
+    /* background: #3b3c40; */
+    line-height: 42px;
+    padding-left: 10px;
+    color: #dcbf5e;
+    text-decoration: none;
+    font-size: 24px;
+    /* font-family: ArticulatCF-Regular; */
+    cursor: pointer;
+   }
+   .password-box .show-icon{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    height: 100%;
+    top:50!important;
+    /* background: #3b3c40; */
+    line-height: 42px;
+    padding-left: 10px;
+    color: #0D3862;
+    text-decoration: none;
+    font-size: 24px;
+    /* font-family: ArticulatCF-Regular; */
+    cursor: pointer;
+   }
+   .flex-div,.login-btn-last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .flex-div label, .flex-div  a{
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px; 
+color: #0D3862;
+    cursor: pointer;
+    text-decoration: none;
+   }
+   .login-btn-form{
+    background-color: #0D3862 !important;
+    border-color: #0d3862 !important;
+    border-radius: 10px !important;
+    font-weight: 700;
+    color:#fff;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center;
+    font-family: 'Inter' !important;
+    width: 144px !important;
+    height: 48px !important;
+    box-shadow: none !important;
+   }
+   .reset-btn-form{
+    color: #fff !important;
+    font-size: 12px;
+    /* font-family: ArticulatCF-Bold; */
+    border-radius: 20px;
+    background-color: #2279ee;
+    width: 100%;
+    height: 40px;
+    line-height: 19px;
+    text-align: center;
+    box-shadow: none !important;
+   }
+   .join-btn-form2{  
+    border-color: #0d3862;
+    border-radius: 10px;
+    font-weight: 700;
+    color:#0d3862;
+    font-size: 16px ;
+    line-height: 19px;
+    text-align: center;
+    width: 144px;
+    height: 48px; 
+    box-shadow: none !important;
+    background: transparent;
+ 
+   }
+   .join-btn-form2:hover{
+    border-color: #0d3862;
+    background-color: #0d3862;
+    color: #fff;
+   }
+   .login-p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+margin-top: 2rem;
+color: #0D3862;
+   }
+   .login-p a{
+color: #C02640;
+font-weight: 600;
+   }
+   @media (max-width:767px){
+    .login-form,.signup-form
+    {
+   max-width: 100% !important;
+   padding: 20px !important;
+    }
+    .login-page-section{
+      padding-top:4rem;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+   }
+/* end login section design  */
+
+

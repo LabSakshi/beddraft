@@ -1,0 +1,36 @@
+.bg-color-rg{
+
+    background: #E4E4E4;
+    border: 1px solid #0D3862;
+    border-radius: 10px;
+    margin-top: 150px;
+  }
+
+  .inner-smallspace-rg{
+
+      margin-top: 0px;
+      padding: 30px;
+  }
+  
+  h2{
+  
+   color: #C02640!important;
+   font-weight: bolder;
+   font-size: 24px;
+   margin-bottom: 20px;
+   
+  }
+  
+  h4{
+  
+   color: #0D3862!important;
+   font-weight: bolder;
+   font-size: 22px;
+  }
+  
+  p{
+  
+       color: #0D3862!important;
+       font-weight: normal;
+   
+  }
